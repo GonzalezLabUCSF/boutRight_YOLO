@@ -1,0 +1,5 @@
+train: D:\Code\boutRight_yolo\dataset\images\train
+val: D:\Code\boutRight_yolo\dataset\images\val
+
+nc: 2
+names: ['bout', 'call']
