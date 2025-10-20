@@ -1,0 +1,33 @@
+name: yolov5-gpu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - cudatoolkit=11.8
+  - pytorch=2.3.0=py3.9_cuda11.8_cudnn8_0
+  - pytorch-cuda=11.8
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - pip:
+      - absl-py
+      - google-auth
+      - google-auth-oauthlib
+      - grpcio
+      - h5py
+      - imageio
+      - matplotlib-inline
+      - opencv-python
+      - pandas
+      - scikit-learn
+      - seaborn
+      - tensorboard
+      - tqdm
+      - torchvision
+      - ultralytics

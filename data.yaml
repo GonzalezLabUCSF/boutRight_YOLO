@@ -1,0 +1,5 @@
+train: C:\Users\ucsfg\Documents\Code\boutRight_v3\dataset\images\train
+val: C:\Users\ucsfg\Documents\Code\boutRight_v3\dataset\images\val
+
+nc: 2
+names: ['bout', 'call']
